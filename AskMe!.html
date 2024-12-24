@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ask Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #131010;
+            color: #333;
+        }
+        header {
+            background-color: #131010;
+            color: white;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+        main {
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h1 {
+            margin-bottom: 1rem;
+            font-size: 2rem;
+        }
+        form {
+            margin-top: 1rem;
+        }
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+        }
+        input, textarea, button {
+            width: 100%;
+            padding: 0.75rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: white;
+            margin-top: 2rem;
+        }
+    a:link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <table width="100%" border="0">
+          <tbody>
+            <tr>
+              <th width="11%" scope="col"><img src="WhatsApp_Image_2024-10-11_at_13.39.43_34afd93d-removebg-preview.png" width="117" height="117" alt=""/></th>
+              <th width="60%" scope="col">&nbsp;</th>
+              <th width="8%" scope="col"><a href="index.html">Home</a></th>
+              <th width="8%" scope="col"><a href="Laman Profile.html">Profile</a></th>
+              <th width="8%" scope="col"><a href="Portofolio.html">Portofolio</a></th>
+              <th width="8%" scope="col">AskMe!</th>
+            </tr>
+          </tbody>
+        </table>
+        <h1>Ask Me!</h1>
+    </header>
+    <main>
+      <h2>Have a question about my portofolio? Let's discuss!</h2>
+        <p>Fill out the form below to send me your questions or topics.</p>
+        <form action="/submit-question" method="post">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="question">Your Question</label>
+            <textarea id="question" name="question" rows="6" placeholder="Write your question here..." required></textarea>
+
+            <button type="submit">Submit Question</button>
+        </form>
+</main>
+    <footer>
+        <table width="100%" border="0">
+          <tbody>
+            <tr>
+              <td colspan="5" style="text-align: center">Social Media</td>
+            </tr>
+            <tr>
+              <td width="37%">&nbsp;</td>
+              <td width="8%"><center><img src="icons8-instagram-48.png" alt="" width="48" height="48" usemap="#Map"/></center></td>
+              <td width="11%"><center><img src="icons8-tiktok-48 (1).png" alt="" width="48" height="48" usemap="#Map2"/></center></td>
+              <td width="7%"><center><img src="icons8-threads-48 (1).png" alt="" width="48" height="48" usemap="#Map3"/></center></td>
+              <td width="37%">&nbsp;</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>&nbsp;</p>
+</footer>
+
+<map name="Map">
+  <area shape="rect" coords="3,6,47,48" href="https://www.instagram.com/abedjeremy/" target="new">
+</map>
+
+<map name="Map2">
+  <area shape="rect" coords="5,1,46,48" href="https://www.tiktok.com/@jeremyherawan539?_t=8qc9pcOzX1j&_r=1" target="new">
+</map>
+
+<map name="Map3">
+  <area shape="rect" coords="3,5,47,45" href="https://www.threads.net/@abedjeremy?invite=1" target="new">
+</map>
+</body>
+</html>
